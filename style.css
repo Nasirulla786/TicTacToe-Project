@@ -1,0 +1,248 @@
+
+/* body{
+    background-image:url(Screenshot\ 2024-06-29\ 160741.png );
+} */
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.con{
+    height:600px;
+    width:600px;
+    /* background-color: #7a0072; */
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap:15px;
+   border-radius: 10px;
+  
+}
+
+.btn{
+    height:166px;
+    width:166px;
+    gap:5px;
+    border-radius: 10px;
+    background-color: #fff349;
+    cursor: pointer;
+    font-size: 50px;
+    color:red;
+    font-weight: bold;
+    
+}
+
+h1{
+    height: 30px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap:15px;
+  color:rgb(248, 162, 248)
+
+   
+}
+
+.re{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reset{
+    height:30px;
+    width:300px;
+    background-color:rgb(248, 162, 248);
+    margin-top:  5px;
+    color:rgb(91, 0, 70);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+
+
+    .line{
+        height:2px;
+        width:500px;
+        background-color: rgba(0,0,0); /* Black w/ opacity */
+    position: absolute;
+        top:165px;
+        display: none;
+      transition-duration: 1s;
+    transition-property: all;
+    
+    }
+
+    .lon{
+
+        height:2px;
+        width:500px;
+        background-color: rgba(0,0,0); /* Black w/ opacity */
+    position: absolute;
+        top:370px;
+    display: none;
+        
+    }
+
+    .ala{
+        
+        height:2px;
+        width:500px;
+        background-color: rgba(0,0,0); /* Black w/ opacity */
+    position: absolute;
+        top:580px;
+    display: none;
+    }
+
+
+
+    .alert-modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    .alert-content {
+        background-color: #f1b9b9;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .close-button {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close-button:hover,
+    .close-button:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #alertOkButton {
+        padding: 10px 20px;
+        background-color: #eeff00;
+        color: rgb(0, 0, 0);
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    
+    #alertOkButton:hover {
+        background-color: #760f0f;
+    }
+
+    
+
+    .l{
+        width: 3px;
+        height:500px;
+        left:560px;
+        background-color: black;
+        position: absolute;
+        display: none;
+    }
+
+    .l2{
+        width: 3px;
+        height:500px;
+        right:560px;
+        background-color: black;
+        position: absolute;
+        display: none;
+    }
+
+    .l3{
+        width: 3px;
+        height:500px;
+        right:740px;
+        background-color: black;
+        position: absolute;
+        display: none;
+    }
+
+    .l4{
+        width: 3px;
+        height:700px;
+        left:740px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        display: none ;
+        rotate: 42deg;
+    }
+
+
+
+    .l7{
+        width: 3px;
+        height:700px;
+        right:740px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        display: none ;
+        rotate: -42deg;
+    }
+
+
+    .pla{
+        width:100px;
+        height: 100px;
+        background-color: rgb(0, 255, 0);
+        position: absolute;
+        right:100px;
+        top:100px;
+        border-radius: 100%;
+        
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ 
+
+   .f{
+    rotate: 28deg;
+    position:absolute;
+    top:20px;
+    left:20px;
+   }
+
+   .t{
+    rotate: -35deg;
+    position:absolute;
+    top:40px;
+    left: 10px;
+   }
+
+   .s{
+ rotate: -90deg;
+ left:-10px;
+ position:absolute;
+ top:40px
+   }
+
+   .play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
